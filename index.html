@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Teja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="l2.png">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="nav" >
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <div class="menu">
+        
+                <h1><span>MENU</span></h1>
+            </div>
+            <div class="icon" >
+                <i onclick="menuOpen()" class="ri-menu-line"></i>
+            </div>
+    </div>
+
+    <div class="open" id="open">
+            <i id="menu_close" class="ri-close-large-line" onclick="menuclose()"></i><br>
+            <li ><a onclick="sectionToScroll('veg_items');menuclose()" class="items"><B>VEG ITEMS</B></a></li>
+            <li ><a onclick="sectionToScroll('curries');menuclose()">Curries</a></li>
+            <li ><a onclick="sectionToScroll('fried_rice');menuclose()">Fried rice</a></li>
+            <li ><a onclick="sectionToScroll('meals');menuclose()">Meals</a></li><br>
+            <li ><a onclick="sectionToScroll('non_veg_items');menuclose()" class="items"><b>NON VEG ITEMS</b></a></li>
+            <li ><a onclick="sectionToScroll('biriyani');menuclose()">Biriyani</a></li>
+            <li ><a onclick="sectionToScroll('nv_fried');menuclose()" >Fried Rice</a></li>
+            <li ><a onclick="sectionToScroll('fish');menuclose()">Fish</a></li>
+            <li ><a onclick="sectionToScroll('egg');menuclose()">Egg</a></li>
+            <li ><a onclick="sectionToScroll('chicken');menuclose()">Chicken(Bone)</a></li>
+            <li ><a onclick="sectionToScroll('chickens');menuclose()">Chicken(Bone less)</a></li>
+            <li ><a onclick="sectionToScroll('prawn');menuclose() ">Prawn</a></li>
+            <li ><a onclick="sectionToScroll('mutton');menuclose()">Mutton(Bone)</a></li>
+            <li ><a onclick="sectionToScroll('special');menuclose()">Special Non Veg</a></li>
+
+    </div>
+
+    <marquee ><pre>WELCOME TO SRI TEJA FAMILY RESTAURANT</pre></marquee>
+    <div class="food">
+        <div class="veg" id="veg_items">
+            <h2>VEG ITEMS</h2>
+            <h3 >CURRIES</h3>
+            <div class="menubox" id="curries">
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/green peas curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Green peas curry </h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Sweet corn curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Sweet corn curry</h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Tomato curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Tomato curry</h3>
+                        <h3>₹130.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Sweet Corn Chips Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Sweet Corn Chips Curry</h3>
+                        <h3>₹170.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Baby Corn curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Baby Corn curry</h3>
+                        <h3>₹200.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mixed Veg Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mixed Veg Curry</h3>
+                        <h3>₹180.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom Curry</h3>
+                        <h3>₹200.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner Butter Masala.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner Butter Masala</h3>
+                        <h3>₹200.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner Green Peas Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner Green Peas Curry</h3>
+                        <h3>₹200.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Cashew Green Peas Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Cashew Green Peas Curry</h3>
+                        <h3>₹180.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Cashew Tomato.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Cashew Tomato</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Cashew Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Cashew Curry</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom Cashew.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom Cashew</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner Cashew.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner Cashew</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner Mashroom.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner Mushroom</h3>
+                        <h3>₹230.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom Fry</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom Chilli.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom Chilli</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom 65.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom 65</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mashroom Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mushroom Roast</h3>
+                        <h3>₹250.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner Fry</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chilli Panner.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chilli Panner</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Panner 65.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Panner 65</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Baby Corn Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Baby Corn Fry</h3>
+                        <h3>₹250.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Baby Corn Chilli.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Baby Corn Chilli</h3>
+                        <h3>₹250.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Baby Corn 65.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Baby Corn 65</h3>
+                        <h3>₹250.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Veg Manchuriya.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Veg Manchuriya</h3>
+                        <h3>₹180.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 >FRIED RICE</h3>
+
+            <div class="menubox" id="fried_rice">
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Veg Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Veg Fried Rice</h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+            
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Sejvan Veg Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Schezwan Veg Fried Rice</h3>
+                        <h3>₹170.00</h3><br>
+                    </div>
+                </div>
+           
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Jeera Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Jeera Fried Rice</h3>
+                        <h3>₹170.00</h3><br>
+                    </div>
+                </div>
+            
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mixed Veg Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mixed Veg Fried Rice</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+            
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Taj Mixed Veg Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj Mixed Veg Fried Rice</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+           
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Mushroom Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Mushroom Fried Rice</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/taj SP Mashroom Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj SP Mushroom Fried Rice</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+            
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Panner Fried Rice.jpg">
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Panner Fried Rice</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+           
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Taj Panner Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj Panner Fried Rice</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="meals">MEALS</h3>
+
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Veg Meals.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Veg Meals</h3>
+                        <h3>₹100.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/White Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>White Rice</h3>
+                        <h3>₹60.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Curd Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Curd Rice</h3>
+                        <h3>₹90.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Curd.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Curd</h3>
+                        <h3>₹10.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="non_veg" id="non_veg_items">
+            <h2>NON VEG ITEMS</h2>
+            <h3 id="biriyani">BIRYANIS</h3>
+            <div class="menubox">
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Fry Biryani</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Dum Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Dum Biryani</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Wings Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Wings Biryani</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Taj Chicken Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj Chicken Biryani</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Special Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Special Biryani</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Mogali Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Mogali Biryani</h3>
+                        <h3>₹290.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Fry Biryani</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Prawn Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Prawn Fry Biryani</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Fry Biryani</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Mutton Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Mutton Fry Biryani</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Fry Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Boneless Fry Biryani(3)</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Lollipop Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Lollipop Biryani</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Biriyani.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Biryani</h3>
+                        <h3>₹160.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Biriyani Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Biryani Rice</h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="nv_fried">FRIED RICE</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Fried Rice</h3>
+                        <h3>₹170.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Fried Rice</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Schezwan Chicken Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Schezwan Chicken Fried Rice</h3>
+                        <h3>₹240.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Taj Chicken Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj Chicken Fried Rice</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Fried Rice</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP Chicken Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP Chicken Fried Rice</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Sp Prawn Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Sp Prawn Fried Rice</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Taj Prawn Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Taj Prawn Fried Rice</h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/SP mutton Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>SP mutton Fried Rice</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mixed Non Veg Fried Rice.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mixed Non Veg Fried Rice</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="fish">FISH</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish Curry</h3>
+                        <h3>₹150.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish Fry</h3>
+                        <h3>₹170.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish Roast</h3>
+                        <h3>₹160.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish Curry B.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish Curry B/L</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish Fry B.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish Fry B/L</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Fish B Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Fish B/L Roast</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Sea Fish SP.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Sea Fish SP</h3>
+                        <h3>₹340.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="egg">EGG</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Boiled (2).jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Boiled (2)</h3>
+                        <h3>₹40.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Curry</h3>
+                        <h3>₹80.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Fry</h3>
+                        <h3>₹90.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Roast</h3>
+                        <h3>₹90.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Egg Masala.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Egg Masala</h3>
+                        <h3>₹90.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="chicken">CHICKEN (BONE)</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Curry</h3>
+                        <h3>₹200.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Fry</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Masala.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Masala</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Roast</h3>
+                        <h3>₹220.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Mughlai.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Mughlai</h3>
+                        <h3>₹230.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Wings Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Wings Roast</h3>
+                        <h3>₹250.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Wings.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Wings</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Lolipop(5).jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Lolipop(5)</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Kabab Roast(4).jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Kebab Roast(4)</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Andhra Bone Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Andhra Bone Curry</h3>
+                        <h3>₹240.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Lot-Pot.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Lot-Pot</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="chickens">CHICKEN (BONELESS)</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken boneless Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Curry</h3>
+                        <h3>₹240.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/butter chicken boneless.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Butter Chicken</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/boneless chicken mughlai.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Mugali</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/boneless Chicken Ginger.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Ginger</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Punjabi.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Punjabi</h3>
+                        <h3>₹270.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Sulthan.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Sulthan</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken boneless Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Fry</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Chilli.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Chilli</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken 65.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken 65</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Roast</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chicken 555.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken 555</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/boneless Chicken Pepper.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chicken Pepper</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                 <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Andhra BoneLess Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Andhra B/L Curry</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/RR Chicken boneless.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>RR Chicken</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Dragon Chicken boneless.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Dragon Chicken</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Chitti Naidu Chicken boneless.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Chitti Naidu Chicken</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="prawn">PRAWN</h3>
+            <div class="menubox">
+
+               <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Curry</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+                
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Fry</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Chilli.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Chilli</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn 65.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn 65</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Ginger.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Ginger</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Masala.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Masala</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Prawn Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Prawn Roast</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="mutton">MUTTON (BONE)</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Curry</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>   
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Fry</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div> 
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Masala.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Masala</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div> 
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Mughlai.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Mughlai</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div> 
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Mutton Ginger.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Mutton Ginger</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div> 
+
+            </div>
+
+            <h3 id="special">SPECIAL NON VEG</h3>
+            <div class="menubox">
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Crabs Curry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Crab Curry</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Crab Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Crab Fry</h3>
+                        <h3>₹280.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Nethallu Roast.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Nethallu Roast</h3>
+                        <h3>₹260.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Nethallu fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Nethallu Fry</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Vanjaram Fry.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Vanjaram Fry</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Konem Fish Curry B.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Konem Fish Curry B/L</h3>
+                        <h3>₹320.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Konem Fish Fry B.jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Konem Fish Fry B/L</h3>
+                        <h3>₹340.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Savada Fish Fry(3).jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Savada Fish Fry(3)</h3>
+                        <h3>₹300.00</h3><br>
+                    </div>
+                </div>
+
+                <div class="menucard">
+                    <div class="menuimg">
+                        <img src="images/Kouju Pitta (2).jpg"        >
+                    </div>
+                    <div class="menuinfo">
+                        <h3>Birds (Kouju Pitta) (2)</h3>
+                        <h3>₹240.00</h3><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <a href="https://www.instagram.com/sai_prasanth_03?igsh=MXVubHh3MTI1aGJzdw==" target="_blank"><p>Designed by <span><b>@ SAI PRASANTH</b></span></p></a>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

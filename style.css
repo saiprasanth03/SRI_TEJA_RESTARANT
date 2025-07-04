@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0.5);
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+.nav .logo{
+    margin: 3px;
+    margin-left: 30px;
+}
+.nav .logo img{
+    width: 100px;
+    cursor: pointer;
+}
+.nav .icon{
+    margin-right: 30px;
+    font-size: 25px;
+    color: rgb(37, 35, 35);
+}
+.list{
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 30px;
+    width: 70%;
+    background-color: aqua;
+    margin-left: 30%;
+    list-style-type: none;
+    height: 100vh;
+    position: static;
+    font-size: 25px;
+    display: none;
+}
+.list li{
+    list-style-type: none;
+}
+.open{
+    list-style-type: none;
+    width: 50%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(222, 210, 210, 0.5);
+    z-index: 1000;
+    position: fixed;
+    height: 100vh;
+    margin-left: 50%;
+    padding-left: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+.open li,i{
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.open i{
+    text-align: right;
+    margin-right: 30px;
+    
+}
+.menu{
+    text-align: center;
+    color: black;
+    /* font-style: oblique; */
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu h1 span{
+    color: rgba(108,26,18,255);
+    text-align: center;
+}
+.menu h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    bottom: 13px;
+}
+marquee{
+    padding-top: 65px;
+    font-size: 20px;
+}
+.veg h2,.non_veg h2{
+    top: 60px;
+    text-align: center;
+    z-index: 100;
+    position: sticky;
+    padding-top: 5px;
+    color: rgba(213,102,32,255);
+    background-color: white;
+    font-size: 30px;
+}
+.veg h3,.non_veg h3{
+    font-size: 25px;
+    padding-left: 10%;
+    margin-top: 0px;
+    top: 99px;
+    z-index: 100;
+    position: sticky;
+    background-color: white;
+}
+.menubox{
+    width: 95%;
+    margin: 20px auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.menubox::-webkit-scrollbar{
+    display: none;
+}
+.menubox .menucard{
+    text-wrap: wrap;
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 380px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.menubox .menucard .menuimg {
+    height: 245px;
+    width: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.menubox .menucard .menuimg img{
+    width: 97%;
+    height: 100%;
+    padding-left: 3%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.menubox .menucard .menuinfo{
+    margin-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuinfo h3{
+    z-index: 0;
+    font-size: 23px;
+}
+.menubox .menucard .menuimg:hover img{
+    transform: scale(1.1);
+}
+footer p{
+    text-align: center;
+    bottom: 0;
+    background-color:#ebf4f4;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+}
+footer p span{
+    color: #000000;
+}
+@media screen and (max-width: 500px) {
+    .open{
+        width: 70%;
+        margin-left: 30%;
+    }
+    .open li,i{
+        margin: 5px;
+        font-size: 22px;
+        cursor: pointer;
+}
+}
